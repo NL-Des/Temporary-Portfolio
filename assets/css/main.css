@@ -684,13 +684,13 @@ section,
 
 .hero .hero-content .hero-actions .btn-primary {
   padding: 14px 32px;
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  background: #ffffff /* var(--accent-color) */;
+  color:#0000ff /* var(--contrast-color) */;
   border-radius: 6px;
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
-  border: 2px solid var(--accent-color);
+  border: #8c9197 /* 2px solid var(--accent-color) */;
 }
 
 .hero .hero-content .hero-actions .btn-primary:hover {
