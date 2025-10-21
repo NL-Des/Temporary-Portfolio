@@ -244,6 +244,40 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color) 90%, black 15%);
 }
 
+/* Pour les icônes de projets de groupes */
+.stat-item i {
+  font-size: 32px;
+  color: var(--default-color);
+  opacity: 0.6;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.stat-item i {
+  font-size: 32px;
+  color: var(--default-color);
+  opacity: 0.6;
+  margin-bottom: 16px;
+}
+
+.stat-item i {
+  font-size: 32px;
+  color: var(--default-color);
+  opacity: 0.6;
+  margin-bottom: 16px;
+  height: 32px; /* Fixe la hauteur */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -684,8 +718,8 @@ section,
 
 .hero .hero-content .hero-actions .btn-primary {
   padding: 14px 32px;
-  background: #ffffff /* var(--accent-color) */;
-  color:#0000ff /* var(--contrast-color) */;
+  background:#0000ff /* var(--accent-color) */;
+  color:#ffffff  /* var(--contrast-color) */;
   border-radius: 6px;
   font-weight: 500;
   text-decoration: none;
@@ -694,7 +728,9 @@ section,
 }
 
 .hero .hero-content .hero-actions .btn-primary:hover {
-  background: color-mix(in srgb, var(--accent-color), black 10%);
+  /* background: color-mix(in srgb, var(--accent-color), black 10%); */
+  background: #ffffff /* var(--accent-color) */;
+  color:#0000ff /* var(--contrast-color) */;
   border-color: color-mix(in srgb, var(--accent-color), black 10%);
   transform: translateY(-2px);
 }
